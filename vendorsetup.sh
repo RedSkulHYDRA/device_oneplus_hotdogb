@@ -8,6 +8,7 @@ sleep 1
 
 # Remove unwanted apps 
 rm -rf packages/apps/Aperture
+rm -rf packages/apps/Camera2
 rm -rf packages/apps/Matlog
 
 # Clone Common Tree
