@@ -42,6 +42,10 @@ git clone https://github.com/yaap/vendor_oneplus_hotdog.git -b thirteen vendor/o
 git clone https://github.com/yaap/vendor_oneplus_guacamole.git -b thirteen vendor/oneplus/guacamole
 git clone https://github.com/yaap/vendor_oneplus_guacamoleb.git -b thirteen vendor/oneplus/guacamoleb
 
+#Icon Packs
+rm -rf frameworks/base/packages/overlays
+git clone https://github.com/RedSkulHYDRA/Icon_packs.git -b yaap-custom frameworks/base/packages/overlays
+
 # DOLBY
 git clone https://github.com/RedSkulHYDRA/hardware_dolby.git hardware/dolby
 
