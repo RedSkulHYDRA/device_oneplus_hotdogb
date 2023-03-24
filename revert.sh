@@ -17,15 +17,3 @@ git revert --no-edit 3afe8e714e62ca98dddff5452bf9885da2102b7b
 
 cd
 cd yaap
-
-###############################################################################################
-# GMS
-
-echo "Cloning Gapps Package"
-sleep 2
-rm -rf vendor/google/gms
-git clone https://gitlab.com/RedSkulHYDRA/vendor_google_gms_full.git -b thirteen vendor/google/gms
-sleep 2
-cd 
-cd yaap
-###############################################################################################
