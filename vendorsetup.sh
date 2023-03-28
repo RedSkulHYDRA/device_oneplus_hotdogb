@@ -11,6 +11,11 @@ rm -rf packages/apps/Aperture
 rm -rf packages/apps/Camera2
 rm -rf packages/apps/Matlog
 
+# Change logo Mask
+
+rm -rf frameworks/base/core/res/assets/images
+git clone https://github.com/RedSkulHYDRA/custom_android_logo.git frameworks/base/core/res/assets/images
+
 # Clone Common Tree
 
 git clone https://github.com/RedSkulHYDRA/device_oneplus_sm8150-common -b yaap-custom device/oneplus/sm8150-common
