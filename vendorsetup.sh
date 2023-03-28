@@ -22,7 +22,6 @@ git clone https://github.com/RedSkulHYDRA/device_oneplus_sm8150-common -b yaap-c
 
 # Clone Kernel (Inlining Neptune)
 
-sudo apt-get install lld
 rm -rf packages/apps/KProfiles
 git clone https://github.com/yaap/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9.git prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
 git clone https://gitlab.com/Codecity001/rui-clang.git -b main /home/redskul/yaap/prebuilts/clang/host/linux-x86/clang-rui
