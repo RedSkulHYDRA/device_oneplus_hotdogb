@@ -11,7 +11,7 @@ $(call inherit-product, vendor/oneplus/hotdogb/hotdogb-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-yaap
+    $(LOCAL_PATH)/overlay-aosp
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -34,6 +34,9 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Wifi Overlay
 PRODUCT_PACKAGES += \
