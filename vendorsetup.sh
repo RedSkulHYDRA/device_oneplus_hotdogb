@@ -11,10 +11,6 @@ rm -rf packages/apps/Aperture
 rm -rf packages/apps/Camera2
 rm -rf packages/apps/Matlog
 
-# Change logo Mask
-
-rm -rf frameworks/base/core/res/assets/images
-git clone https://github.com/RedSkulHYDRA/custom_android_logo.git frameworks/base/core/res/assets/images
 
 # Clone Common Tree
 
@@ -51,9 +47,6 @@ git clone https://github.com/yaap/vendor_oneplus_hotdog.git -b thirteen vendor/o
 git clone https://github.com/yaap/vendor_oneplus_guacamole.git -b thirteen vendor/oneplus/guacamole
 git clone https://github.com/yaap/vendor_oneplus_guacamoleb.git -b thirteen vendor/oneplus/guacamoleb
 
-#Icon Packs
-rm -rf frameworks/base/packages/overlays
-git clone https://github.com/RedSkulHYDRA/Icon_packs.git -b yaap-custom frameworks/base/packages/overlays
 
 # DOLBY
 git clone https://github.com/RedSkulHYDRA/hardware_dolby.git hardware/dolby
@@ -64,6 +57,7 @@ git clone https://github.com/RedSkulHYDRA/vendor_icons.git vendor/icons
 cd device/oneplus/hotdogb
 chmod +x revert.sh
 chmod +x spoof.sh
+chmod +x icons_logo.sh
 
 cd
 cd yaap
