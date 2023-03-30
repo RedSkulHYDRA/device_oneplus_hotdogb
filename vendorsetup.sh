@@ -14,7 +14,7 @@ rm -rf packages/apps/Matlog
 
 # Clone Common Tree
 
-git clone https://github.com/RedSkulHYDRA/device_oneplus_sm8150-common -b yaap-custom device/oneplus/sm8150-common
+git clone https://github.com/RedSkulHYDRA/device_oneplus_sm8150-common -b test device/oneplus/sm8150-common
 
 # Clone Kernel (Inlining Neptune)
 
