@@ -17,10 +17,9 @@ rm -rf packages/apps/Matlog
 git clone https://github.com/RedSkulHYDRA/device_oneplus_sm8150-common -b yaap-custom device/oneplus/sm8150-common
 
 # Clone Kernel (Inlining Neptune)
-
 rm -rf packages/apps/KProfiles
 git clone https://github.com/yaap/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9.git prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
-git clone https://gitlab.com/Codecity001/rui-clang.git -b main /home/redskul/yaap/prebuilts/clang/host/linux-x86/clang-rui
+git clone https://gitlab.com/Flamingo-OS/dora_clang.git -b A13 /home/redskul/yaap/prebuilts/clang/host/linux-x86/clang-dora
 git clone https://github.com/Codecity001/Neptune_kernel_sm8150_oneplus.git -b inline-erofs kernel/oneplus/sm8150
 
 # Clone vendor
