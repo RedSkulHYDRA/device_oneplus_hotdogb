@@ -1,6 +1,6 @@
 # Custom PixelPropUtils
-rm -rf /home/redskul/yaap/frameworks/base/core/java/com/android/internal/util/yaap/PixelPropsUtils.java
-wget https://raw.githubusercontent.com/RedSkulHYDRA/PixelProps/main/PixelPropsUtils.java -P /home/redskul/yaap/frameworks/base/core/java/com/android/internal/util/yaap
+rm -rf /home/redskul/yaap/frameworks/base/core/java/com/android/internal/util/yaap
+git clone https://github.com/RedSkulHYDRA/Yaap-Utils.git -b main frameworks/base/core/java/com/android/internal/util/yaap
 
 # Application manager
 rm -rf /home/redskul/yaap/frameworks/base/core/java/android/app/ApplicationPackageManager.java
