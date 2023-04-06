@@ -18,7 +18,7 @@ git clone https://github.com/RedSkulHYDRA/vendor_icons.git vendor/icons
 
 # Config.xml 
 rm -rf vendor/yaap/overlay/frameworks/base/core/res/res/values/config.xml
-git clone https://github.com/RedSkulHYDRA/vendor_yaap.git -b yaap-custom vendor_yaap/overlay/frameworks/base/core/res/res/values
+wget https://raw.githubusercontent.com/RedSkulHYDRA/vendor_yaap/yaap-custom/config.xml -P /home/redskul/yaap/vendor/yaap/overlay/frameworks/base/core/res/res/values
 
 # Qcomm
 git clone https://github.com/yaap/device_qcom_common -b thirteen device/qcom/common
