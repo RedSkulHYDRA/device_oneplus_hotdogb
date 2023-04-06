@@ -17,7 +17,7 @@ git clone https://github.com/RedSkulHYDRA/hardware_dolby.git hardware/dolby
 git clone https://github.com/RedSkulHYDRA/vendor_icons.git vendor/icons
 
 # Config.xml 
-rm -rf vendor_yaap/overlay/frameworks/base/core/res/res/values/config.xml
+rm -rf vendor/yaap/overlay/frameworks/base/core/res/res/values/config.xml
 git clone https://github.com/RedSkulHYDRA/vendor_yaap.git -b yaap-custom vendor_yaap/overlay/frameworks/base/core/res/res/values
 
 # Qcomm
