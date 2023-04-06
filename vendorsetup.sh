@@ -52,11 +52,3 @@ git clone https://github.com/RedSkulHYDRA/hardware_dolby.git hardware/dolby
 
 # Themed Icons
 git clone https://github.com/RedSkulHYDRA/vendor_icons.git vendor/icons
-
-cd device/oneplus/hotdogb
-chmod +x revert.sh
-chmod +x spoof.sh
-chmod +x icon_logo.sh
-
-cd
-cd yaap
