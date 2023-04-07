@@ -1,3 +1,6 @@
+cd
+cd yaap
+
 # ROM source patches
 
 color="\033[0;32m"
